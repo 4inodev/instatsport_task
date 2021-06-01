@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Instatsport</string>
+    <string name="watch_now">Watch now:</string>
+    <string name="score_placeholder">-</string>
+    <string name="versus">vs</string>
+    <string name="default_placeholder">Loading...</string>
 </resources>
