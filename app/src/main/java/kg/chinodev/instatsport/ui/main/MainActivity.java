@@ -70,4 +70,10 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     public void showError(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        presenter.onDetach();
+    }
 }
